@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_kebab.mk
+    $(LOCAL_DIR)/bliss_kebab.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_kebab-user \
-    havoc_kebab-userdebug \
-    havoc_kebab-eng
+    bliss_kebab-user \
+    bliss_kebab-userdebug \
+    bliss_kebab-eng
