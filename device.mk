@@ -206,10 +206,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
-# Charge control
-PRODUCT_PACKAGES += \
-    vendor.kscope.chgctrl@1.0-service.oneplus_kona
-
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
