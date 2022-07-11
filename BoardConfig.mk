@@ -26,17 +26,16 @@ TARGET_OTA_ASSERT_DEVICE := kebab|OnePlus8T|oneplus8t|lemonades|OnePlus9R|oneplu
 
 # Architecture
 TARGET_ARCH := arm64
-TARGET_ARCH_VARIANT := armv8-2a-dotprod
+TARGET_ARCH_VARIANT := armv8-2a
 TARGET_CPU_ABI := arm64-v8a
-TARGET_CPU_VARIANT := kryo785
+TARGET_CPU_ABI2 :=
+TARGET_CPU_VARIANT := cortex-a76
 
-ifeq (,$(filter %_64,$(TARGET_PRODUCT)))
 TARGET_2ND_ARCH := arm
 TARGET_2ND_ARCH_VARIANT := armv8-2a
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
-TARGET_2ND_CPU_VARIANT := kryo385
-endif
+TARGET_2ND_CPU_VARIANT := cortex-a76
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := kona
@@ -56,7 +55,7 @@ TARGET_KERNEL_ADDITIONAL_FLAGS += AR=llvm-ar NM=llvm-nm OBJCOPY=llvm-objcopy OBJ
 TARGET_KERNEL_SOURCE := kernel/oneplus/kebab
 TARGET_KERNEL_CONFIG := vendor/kona-perf_defconfig
 TARGET_KERNEL_CLANG_VERSION := liyuu
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-liyuu
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proton
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
