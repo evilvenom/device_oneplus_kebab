@@ -24,7 +24,7 @@
     <!-- Names of the key handler classes -->
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
         <item>com.android.touch.gestures.KeyHandler</item>
-        <item>org.nameless.device.OnePlusSettings.Services.KeyHandler</item>
+        <item>org.bliss.device.OnePlusSettings.Services.KeyHandler</item>
     </string-array>
 
     <!-- The location of the devices physical tri state switch
