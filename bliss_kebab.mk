@@ -27,6 +27,9 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# UDFPS
+EXTRA_UDFPS_ANIMATIONS := true
+
 # Official
 CUSTOM_BUILD_TYPE := Official
 
