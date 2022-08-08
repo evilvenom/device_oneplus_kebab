@@ -15,6 +15,5 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Maintainer info -->
-    <string name="config_maintainer_name">Chandu Dyavanapelli</string>
-    <string name="config_maintainer_link">https://www.paypal.com/paypalme/ChanduDyavanapelli</string>
+    <string name="bliss_maintainer">EvilVenøm</string>
 </resources>
